@@ -1,0 +1,341 @@
+body {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-family: sans-serif;
+	background: white url(../images/header.jpg) no-repeat center top;
+	background-size: 1350px 800px;
+}
+body::after {
+	content: "";
+	background-color: white;
+	opacity: 0.9;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	z-index: -1;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* HEADER SECTION */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+ul {
+	text-align: center;
+}
+li {
+	display: inline;
+	padding: 0;
+	margin: 10px 20px;
+	width: 500px;
+	font-weight: 600;
+}
+a {
+	text-decoration: none;
+	width: 100px;
+	color: black;
+}
+
+
+/* HOME SECTION*/
+#Home {
+	margin-top: 50px;
+}
+
+iframe {
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 220px;
+}
+
+#triangle {
+   width: 0; 
+   height: 0; 
+   border-top: 100px solid #FDFEFE; 
+   border-left: 100px solid transparent; 
+   position: absolute;
+   top: 43px;
+   margin-left: 692px;
+}
+
+h1, h2 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+h1 {
+	color: #0393ef;
+	font-size: 100px;
+}
+h2 {
+	color: #7f7f7f;
+	font-size: 50px;
+	font-weight: 300;
+}
+#time {
+	text-align: center;
+}
+#time img {
+	display: inline;
+	height: 40px;
+	width: 40px;
+}
+#time h3 {
+	display: inline;
+	font-size: 30px;
+	font-weight: 200
+}
+#Home button {
+	margin-top: 40px;
+	background-color: black;
+	width: 250px;
+	height: 80px;
+	margin-left: 375px;
+	border: none;
+}
+#Home button p {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#logos {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#logos img:first-child {
+	width: 150px;
+	height: 185px;
+}
+#logos img:nth-child(2) {
+	width: 210px;
+	height: 185px;
+}
+
+/* ABOUT SECTION */
+#About {
+	text-align: center;
+	margin-bottom: 500px;
+}
+#About p {
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #7f7f7f;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 600px;
+}
+#About iframe {
+	position: absolute;
+	top: 1000px;
+	margin-left: -500px;
+}
+
+#About #location {
+	position: absolute;
+	top: 990px;
+	margin-left: 500px;
+	width: 500px;
+	height: 300px;
+}
+#when, #place, #who {
+	text-align: left;
+}
+#About img {
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+}
+#when img {
+	position: relative;
+	top: 20px;
+}
+#who img {
+	position: relative;
+	top: -70px;
+}
+
+#location p {
+	color: black;
+	position: relative;
+	left: 90px;
+}
+#when p {
+	top: -70px;
+}
+#place p {
+	top: -115px;
+}
+#who p {
+	top: -175px;
+}
+#location span {
+	font-weight: 700;
+}
+
+/* SCHEDULE SECTION */
+#Schedule::after {
+	position: absolute;
+	content: "";
+	background-color: #eeeeee;
+	top: 1400px;
+	left: 0;
+	width: 100%;
+	height: 775px;
+	z-index: -1;
+}
+
+h4 {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+#Schedule p {
+	padding: 0;
+	margin: 0 auto;
+	color: #7f7f7f;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 600px;
+}
+#Schedule button {
+	display: inline;
+	height: 60px;
+	background-color: #0393ef;
+	border: none;
+}
+#calendar {
+	margin-top: 20px;
+}
+#Schedule #calendar p {
+	width: 150px;
+	color: white;
+}
+#calendar-box {
+	width: 1000px;
+	height: 500px;
+	background-color: white;
+	margin-bottom: 70px;
+}
+
+/* REGISTER SECTION */
+#Register p, #Register div {
+	padding: 0;
+	margin: 0;
+}
+#Register::after {
+	position: absolute;
+	content: "";
+	background-color: #f6f6f8;
+	top: 2175px;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	z-index: -1;
+}
+#Register .prices {
+	padding: 0;
+	margin: 0;
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0 0 10px #999999;
+}
+#Register #price-point-two, #Register #price-point-three {
+	margin-left: 45px;
+}
+#Register .prices .first {
+	background-color: black;
+	height: 125px;
+	color: white;
+	padding-top: 5px;
+}
+#Register .first .weird {
+	font-size: 25px;
+	font-weight: 600;
+}
+#Register .first .weird:nth-of-type(2) {
+	font-size: 50px;
+}
+#Register .first .weird:nth-of-type(2) span {
+	font-size: 30px;
+}
+#Register .first div {
+	background-color: #0393ef;
+	width: 250px;
+	height: 30px;
+	margin: 0 auto;
+}
+#Register .first div p {
+	padding-top: 5px;
+}
+#Register .second {
+	color: #7f7f7f;
+}
+#Register br {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#Register button {
+	background-color: black;
+	border: none;
+	color: white;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	bottom: -30px;
+}
+
+/* FOOTER SECTION */
+footer::after {
+	position: absolute;
+	content: "";
+	background-color: black;
+	top: 2725px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	z-index: -1;
+}
+footer {
+	margin-top: 100px;
+	color: white;
+}
+footer img {
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	top: 2740px;
+	margin-left: 500px;
+}
+footer p {
+	text-align: right;
+	position: absolute;
+	font-size: 20px;
+	top: 2730px;
+	margin-left: 275px;
+}

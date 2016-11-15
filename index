@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>Dare To Dream</title>
+	    <meta name="description" content="Dare To Dream District 64 Spring Conference Landing Page">
+	    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<nav>
+					<ul>
+						<a href="#Home"><li>HOME</li></a>
+						<a href="#About"><li>ABOUT</li></a>
+						<a href="#Schedule"><li>SCHEDULE</li></a>
+						<a href="#Register"><li>REGISTER</li></a>
+					<ul>
+				</nav>
+			</header>
+			<section id="Home">
+				<div id="triangle"></div>
+				<iframe width="571" height="196" src="https://w2.countingdownto.com/1595015" frameborder="0"></iframe>
+				<h1>DARE TO DREAM</h1>
+				<h2>District 64 Spring Conference</h2>
+				<div id="time">
+					<img src="images/cal.png" alt="calendar icon">
+					<h3>May 12 - 14, 2017</h3>
+				</div>
+				<a href="#Register"><button><p>Register Today</p></button></a>
+				<div id="logos">
+					<img href="http://www.district64.ca/" src="images/ToastRocket.png" alt="Dare To Dream logo">
+					<img href="www.toastmasters.org" src="images/toastmasters.png" alt="ToastMasters International logo">
+				</div>
+			</section>
+			<section id="About">
+				<p>Inspirational paragraph about the event that will convince someone to register. This is where that will go when it is not a place-holder. Right here in this spot. Very inspirational of a spot here. Super inspirational.</p>
+				<div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5139.798267353612!2d-97.21028715692512!3d49.90069697291049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea730c6b163621%3A0x2bbe3f679a3b570f!2sHilton+Winnipeg+Airport+Suites!5e0!3m2!1sen!2sca!4v1478807975794" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div id="location">
+						<div id="when">
+							<img src="images/clock.png">
+							<p><span>May 12-13, 2017</span></p>
+						</div>
+						<div id="place">
+							<img src="images/streets.png">
+							<p>
+								<span>Hilton Winnipeg Airport</span><br>
+								1800 Wellington Avenue<br>
+								Winnipeg, Manitoba
+							</p>
+						</div>
+						<div id="who">
+							<img src="images/person.png">
+							<p>
+								Email us at:<br>
+								daretodreamconference@gmail.com
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="Schedule">
+				<h4>EVENT SCHEDULE</h4>
+				<p>Maybe you'd like some text here talking up all those cool things that everyone will be doing at this conference. Cool speakers and stuff.</p>
+				<div id="calendar">
+					<button><p>May 12, 2017</p></button>
+					<button><p>May 13, 2017</p></button>
+					<button><p>May 14, 2017</p></button>
+					<div id="calendar-box"></div>
+				</div>
+			</section>
+			<section id="Register">
+				<h4>TICKET PRICES</h4>
+				<div id="price-point-one" class="prices">
+					<div class="first">
+						<p class="weird">EARLY BIRD</p>
+						<p class="weird">25<span>$</span></p>
+						<div>
+							<p>until dd/MM</p>
+						</div>
+					</div>
+					<p class="second">
+						Cool Features<br>
+						Includes Lunch<br>
+						Feature<br>
+						Another Feature<br>
+					</p>
+					<button><p>Register</p></button>
+				</div>
+				<div id="price-point-two" class="prices">
+					<div class="first">
+						<p class="weird">REGULAR BIRD</p>
+						<p class="weird">40<span>$</span></p>
+					</div>
+					<p class="second">
+						Cool Features<br>
+						Includes Lunch<br>
+						Feature<br>
+						Another Feature<br>
+					</p>
+					<button><p>Register</p></button>
+				</div>
+				<div id="price-point-three" class="prices">
+					<div class="first">
+						<p class="weird">FANCY BIRD</p>
+						<p class="weird">60<span>$</span></p>
+					</div>
+					<p class="second">
+						Cool Features<br>
+						Includes Lunch<br>
+						Feature<br>
+						Another Feature<br>
+					</p>
+					<button><p>Register</p></button>
+				</div>
+			</section>
+			<footer>
+				<p>
+					Landing page designed<br>
+					and hosted by
+				</p>
+				<img src="images/bitspacewhite.png">
+			</footer>
+		</div>
+	</body>
+</html>
