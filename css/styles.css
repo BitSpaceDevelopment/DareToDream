@@ -119,11 +119,11 @@ h2 {
 	text-align: center;
 }
 
-#logos img:first-child {
+#logos #toastrocket {
 	width: 150px;
 	height: 185px;
 }
-#logos img:nth-child(2) {
+#logos #toastmasters {
 	width: 210px;
 	height: 185px;
 }
@@ -139,17 +139,22 @@ h2 {
 	color: #7f7f7f;
 	font-size: 20px;
 	font-weight: lighter;
-	width: 600px;
+	width: 900px;
+}
+#About #important-span {
+	color: #555555;
+	font-size: 27px;
+	font-weight: 600;
 }
 #About iframe {
 	position: absolute;
-	top: 1000px;
+	top: 1250px;
 	margin-left: -500px;
 }
 
 #About #location {
 	position: absolute;
-	top: 990px;
+	top: 1240px;
 	margin-left: 500px;
 	width: 500px;
 	height: 300px;
@@ -194,7 +199,7 @@ h2 {
 	position: absolute;
 	content: "";
 	background-color: #eeeeee;
-	top: 1400px;
+	top: 1650px;
 	left: 0;
 	width: 100%;
 	height: 775px;
@@ -233,7 +238,7 @@ h4 {
 }
 #calendar-box {
 	width: 1000px;
-	height: 500px;
+	height: 550px;
 	background-color: white;
 	margin-bottom: 70px;
 }
@@ -247,10 +252,10 @@ h4 {
 	position: absolute;
 	content: "";
 	background-color: #f6f6f8;
-	top: 2175px;
+	top: 2425px;
 	left: 0;
 	width: 100%;
-	height: 550px;
+	height: 870px;
 	z-index: -1;
 }
 #Register .prices {
@@ -262,9 +267,13 @@ h4 {
 	background-color: white;
 	text-align: center;
 	box-shadow: 0 0 10px #999999;
+	position: absolute;
 }
-#Register #price-point-two, #Register #price-point-three {
-	margin-left: 45px;
+#Register #price-point-two {
+	margin-left: 350px;
+}
+#Register #price-point-three {
+	margin-left: 700px;
 }
 #Register .prices .first {
 	background-color: black;
@@ -293,6 +302,7 @@ h4 {
 }
 #Register .second {
 	color: #7f7f7f;
+	height: 200px;
 }
 #Register br {
 	margin-top: 10px;
@@ -307,7 +317,64 @@ h4 {
 	font-size: 20px;
 	font-weight: 600;
 	position: relative;
-	bottom: -30px;
+	bottom: -10px;
+}
+#Register #second-row {
+	margin-top: 20px;
+}
+#Register #second-row .prices {
+	height: 320px;
+	position: absolute;
+	top: 2950px;
+}
+#Register #second-row .prices .first {
+	height: 90px;
+}
+#Register #second-row button {
+	bottom: 30px;
+}
+#price-point-five{
+	margin-left: 350px !important;
+}
+#price-point-six {
+	margin-left: 700px !important;
+}
+#price-point-six .second {
+	height: 80px;
+}
+#price-point-six .weird:first-of-type {
+	font-size: 22px;
+}
+
+/* SPONSOR SECTION*/
+#Sponsors::after {
+	position: absolute;
+	content: "";
+	background-color: #EEEEEE;
+	top: 3295px;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	z-index: -1;
+}
+#Sponsors div{
+	position: absolute;
+	top: 3450px;
+	text-align: center;
+	width: 1000px;
+}
+#Sponsors div p {
+	color: #7f7f7f;
+	padding: 0;
+	margin: 0;
+}
+#Sponsors div p:first-of-type{
+	font-weight: 700;
+	font-size: 40px;
+}
+#Sponsors div p:nth-of-type(2) {
+	margin-top: 10px;
+	font-size: 25px;
 }
 
 /* FOOTER SECTION */
@@ -315,7 +382,7 @@ footer::after {
 	position: absolute;
 	content: "";
 	background-color: black;
-	top: 2725px;
+	top: 3750px;
 	left: 0;
 	width: 100%;
 	height: 100px;
@@ -325,17 +392,48 @@ footer {
 	margin-top: 100px;
 	color: white;
 }
-footer img {
+footer #bit-logo{
 	width: 200px;
 	height: 70px;
 	position: absolute;
-	top: 2740px;
-	margin-left: 500px;
+	top: 3760px;
+	margin-left: 300px;
 }
 footer p {
 	text-align: right;
 	position: absolute;
 	font-size: 20px;
-	top: 2730px;
-	margin-left: 275px;
+	top: 3750px;
+	margin-left: 80px;
+}
+footer #social-logos{
+	position: absolute;
+	top: 3760px;
+	margin-left: 520px;
+}
+footer #social-logos img {
+	width: 75px;
+	height: 75px;
+	margin-left: 10px;
+}
+
+/* COMING SOON BANNER */
+#coming-soon {
+	position: absolute;
+	top: 2050px;
+	width: 1000px;
+	height: 130px;
+	background-color: #7f7f7f;
+	text-align: center;
+}
+#coming-soon p {
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+
+/* JAVASCRIPT STYLES */
+.hidden button
+{
+	display: none;
 }

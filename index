@@ -25,16 +25,22 @@
 				<h2>District 64 Spring Conference</h2>
 				<div id="time">
 					<img src="images/cal.png" alt="calendar icon">
-					<h3>May 12 - 14, 2017</h3>
+					<h3>May 12 - 13, 2017</h3>
 				</div>
 				<a href="#Register"><button><p>Register Today</p></button></a>
 				<div id="logos">
-					<img href="http://www.district64.ca/" src="images/ToastRocket.png" alt="Dare To Dream logo">
-					<img href="www.toastmasters.org" src="images/toastmasters.png" alt="ToastMasters International logo">
+					<a href="http://www.district64.ca/"><img id="toastrocket" src="images/ToastRocket.png" alt="Dare To Dream logo"></a>
+					<a href="www.toastmasters.org"><img id="toastmasters" src="images/toastmasters.png" alt="ToastMasters International logo"></a>
 				</div>
 			</section>
 			<section id="About">
-				<p>Inspirational paragraph about the event that will convince someone to register. This is where that will go when it is not a place-holder. Right here in this spot. Very inspirational of a spot here. Super inspirational.</p>
+				<p><span id="important-span">Calling all Toastmasters and Leaders from District 64 and beyond!</span><br><br>
+					On May 12 - 13, 2017, we invite you to join us and DARE TO DREAM!  That’s the theme for this year’s District 64 Spring Conference – DARE TO DREAM.<br>
+					The Conference will be hosted at the Hilton Winnipeg Airport Suites.  Join your friends and colleagues for an action-packed weekend of speaking, learning, having fun and, most of all – DREAMING.<br>
+					We have tons of exciting events planned, including the Tall Tales and International Speech Competitions for District 64, incredible keynote speeches and banquet dinners, and interactive educational sessions.<br>
+					We look forward to rolling out more details between now and then.  In the meantime, we encourage you to register early for District 64’s marquee event of the year. See you in May!<br><br>
+					Yours in Toastmasters,<br>
+					The DARE TO DREAM Organizing Committee</p>
 				<div>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5139.798267353612!2d-97.21028715692512!3d49.90069697291049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea730c6b163621%3A0x2bbe3f679a3b570f!2sHilton+Winnipeg+Airport+Suites!5e0!3m2!1sen!2sca!4v1478807975794" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					<div id="location">
@@ -62,11 +68,10 @@
 			</section>
 			<section id="Schedule">
 				<h4>EVENT SCHEDULE</h4>
-				<p>Maybe you'd like some text here talking up all those cool things that everyone will be doing at this conference. Cool speakers and stuff.</p>
+				<!-- <p>Maybe you'd like some text here talking up all those cool things that everyone will be doing at this conference. Cool speakers and stuff.</p> -->
 				<div id="calendar">
 					<button><p>May 12, 2017</p></button>
 					<button><p>May 13, 2017</p></button>
-					<button><p>May 14, 2017</p></button>
 					<div id="calendar-box"></div>
 				</div>
 			</section>
@@ -75,44 +80,110 @@
 				<div id="price-point-one" class="prices">
 					<div class="first">
 						<p class="weird">EARLY BIRD</p>
-						<p class="weird">25<span>$</span></p>
+						<p class="weird">160<span>$</span></p>
 						<div>
-							<p>until dd/MM</p>
+							<p>until March 31st</p>
 						</div>
 					</div>
 					<p class="second">
-						Cool Features<br>
-						Includes Lunch<br>
-						Feature<br>
-						Another Feature<br>
+						Two Keynotes<br>
+						Three Meals<br>
+						Two Speech Contests<br>
+						Entrance to All Education Sessions<br>
+						eReader Prize Draw<br>
 					</p>
-					<button><p>Register</p></button>
+					<a href="http://bit.ly/2gqGkpM"><button><p>Register</p></button></a>
 				</div>
-				<div id="price-point-two" class="prices">
+				<div id="price-point-two" class="prices hidden">
 					<div class="first">
 						<p class="weird">REGULAR BIRD</p>
-						<p class="weird">40<span>$</span></p>
+						<p class="weird">160<span>$</span></p>
+						<div>
+							<p>until May 1st</p>
+						</div>
 					</div>
 					<p class="second">
-						Cool Features<br>
-						Includes Lunch<br>
-						Feature<br>
-						Another Feature<br>
+						Two Keynotes<br>
+						Three Meals<br>
+						Two Speech Contests<br>
+						Entrance to All Education Sessions<br>
 					</p>
-					<button><p>Register</p></button>
+					<a href="http://bit.ly/2gqGkpM"><button><p>Register</p></button></a>
 				</div>
-				<div id="price-point-three" class="prices">
+				<div id="price-point-three" class="prices hidden">
 					<div class="first">
-						<p class="weird">FANCY BIRD</p>
-						<p class="weird">60<span>$</span></p>
+						<p class="weird">LATE BIRD</p>
+						<p class="weird">180<span>$</span></p>
 					</div>
 					<p class="second">
-						Cool Features<br>
-						Includes Lunch<br>
-						Feature<br>
-						Another Feature<br>
+						Two Keynotes<br>
+						Three Meals<br>
+						Two Speech Contests<br>
+						Entrance to All Education Sessions<br>
 					</p>
+					<a href="http://bit.ly/2gqGkpM"><button><p>Register</p></button></a>
+				</div>
+				<div id="second-row">
+					<div id="price-point-four" class="one-day prices">
+						<div class="first">
+							<p class="weird">FRIDAY ONLY</p>
+							<p class="weird">70<span>$</span></p>
+						</div>
+						<p class="second">
+							One Keynote<br>
+							One Meal<br>
+							One Speech Contest<br>
+						</p>
+					<a href="http://bit.ly/2gqGkpM"><button><p>Register</p></button></a>
+					</div>
+					<div id="price-point-five" class="one-day prices">
+						<div class="first">
+							<p class="weird">SATURDAY ONLY</p>
+							<p class="weird">125<span>$</span></p>
+						</div>
+						<p class="second">
+							One Keynote<br>
+							Two Meals<br>
+							One Speech Contest<br>
+							Entrance to All Education Sessions<br>
+						</p>
+					<a href="http://bit.ly/2gqGkpM"><button><p>Register</p></button></a>
+					</div>
+					<div id="price-point-six" class="one-day prices">
+						<div class="first">
+							<p class="weird">SPEECH CONTEST ONLY</p>
+							<p class="weird">20<span>$</span></p>
+						</div>
+						<p class="second">
+							Tall Tales (May 12)<br>
+						</p>
 					<button><p>Register</p></button>
+						<p class="second">
+							International (May 13)
+						</p>
+					<a href="http://bit.ly/2gqGkpM"><button><p>Register</p></button></a>
+					</div>
+				</div>
+			</section>
+			<script>
+				if (new Date('2017-03-31') - new Date() <= 0)
+				{
+					document.getElementById('price-point-one').className = "prices hidden";
+					document.getElementById('price-point-two').className = "prices";
+					document.getElementById('price-point-three').className = "prices hidden";
+
+				} 
+				else if (new Date('2017-05-01') - new Date() <= 0)
+				{
+					document.getElementById('price-point-one').className = "prices hidden";
+					document.getElementById('price-point-two').className = "prices hidden";
+					document.getElementById('price-point-three').className = "prices";
+				}
+			</script>
+			<section id="Sponsors">
+				<div>
+					<p>Sponsorship opportunities available</p>
+					<p>email JLusby@Futurpreneur.ca for more info</p>
 				</div>
 			</section>
 			<footer>
@@ -120,8 +191,19 @@
 					Landing page designed<br>
 					and hosted by
 				</p>
-				<img src="images/bitspacewhite.png">
+				<img src="images/bitspacewhite.png" id="bit-logo">
+				<div id="social-logos">
+					<a href="https://www.facebook.com/toastmastersmb/"><img src="images/facebook.png" alt="logo"></a>
+					<a href="https://twitter.com/webelievetm"><img src="images/twitter.png" alt="logo"></a>
+					<a href="http://www.district64.ca"><img src="images/website.png" alt="logo"></a>
+					<a href="mailto:daretodreamwpg@gmail.com?subject=District 64 Spring Conference"><img src="images/email.png" alt="logo"></a>
+				</div>
 			</footer>
+			<section id="coming-soon">
+				<p>
+					Coming Soon!
+				</p>
+			</section>
 		</div>
 	</body>
 </html>
