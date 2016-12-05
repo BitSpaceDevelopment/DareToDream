@@ -437,3 +437,7 @@ footer #social-logos img {
 {
 	display: none;
 }
+
+body {
+	overflow-x: hidden;
+}
