@@ -90,7 +90,7 @@ h2 {
 }
 #time img {
 	display: inline;
-	height: 40px;
+	height: e;
 	width: 40px;
 }
 #time h3 {
@@ -433,11 +433,29 @@ footer #social-logos img {
 }
 
 /* JAVASCRIPT STYLES */
+.hidden .second {
+	margin-top: 20px !important;
+}
+.hidden .second br {
+	margin-top: 20px !important;
+}
 .hidden button
 {
 	display: none;
 }
+#price-point-one.hidden .second {
+	margin-top: 5px !important;
+}
+
+
+
 
 body {
 	overflow-x: hidden;
+}
+#price-point-four .second {
+	margin-top: 20px !important;
+}
+#price-point-four button {
+	bottom: 50px !important;
 }
