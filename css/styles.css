@@ -303,6 +303,10 @@ h4 {
 #Register .second {
 	color: #7f7f7f;
 	height: 200px;
+	padding-top: 20px;
+}
+#Register .second p {
+	margin-top: 20px !important;
 }
 #Register br {
 	margin-top: 10px;
@@ -317,7 +321,6 @@ h4 {
 	font-size: 20px;
 	font-weight: 600;
 	position: relative;
-	bottom: -10px;
 }
 #Register #second-row {
 	margin-top: 20px;
@@ -329,6 +332,12 @@ h4 {
 }
 #Register #second-row .prices .first {
 	height: 90px;
+}
+#Register #second-row .second {
+	padding: 0;
+}
+#Register #second-row .second p {
+	padding: 0;
 }
 #Register #second-row button {
 	bottom: 30px;
@@ -345,6 +354,23 @@ h4 {
 #price-point-six .weird:first-of-type {
 	font-size: 22px;
 }
+#price-point-one .second {
+	padding-top: 0;
+}
+#Register #second-row button {
+	bottom: 50px;
+}
+#price-point-four .second {
+	padding-top: 20px !important;
+}
+#price-point-six .second-second {
+	position: relative;
+	bottom: 20px;
+}
+#price-point-six #second-six {
+	bottom: 70px !important;
+}
+
 
 /* SPONSOR SECTION*/
 #Sponsors::after {
@@ -433,29 +459,21 @@ footer #social-logos img {
 }
 
 /* JAVASCRIPT STYLES */
-.hidden .second {
-	margin-top: 20px !important;
-}
-.hidden .second br {
-	margin-top: 20px !important;
-}
+
 .hidden button
 {
 	display: none;
 }
-#price-point-one.hidden .second {
-	margin-top: 5px !important;
-}
 
+.hidden#price-point-one .second {
+	padding-top: 20px;
+}
+.hidden#price-point-two .second, .hidden#price-point-three .second {
+	padding-top: 40px;
+}
 
 
 
 body {
 	overflow-x: hidden;
-}
-#price-point-four .second {
-	margin-top: 20px !important;
-}
-#price-point-four button {
-	bottom: 50px !important;
 }
