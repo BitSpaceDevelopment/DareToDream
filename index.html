@@ -70,9 +70,11 @@
 				<h4>EVENT SCHEDULE</h4>
 				<!-- <p>Maybe you'd like some text here talking up all those cool things that everyone will be doing at this conference. Cool speakers and stuff.</p> -->
 				<div id="calendar">
-					<button><p>May 12, 2017</p></button>
-					<button><p>May 13, 2017</p></button>
-					<div id="calendar-box"></div>
+					<button id="button-one" class="button-selected" onclick="scheduleChangeFriday()"><p>May 12, 2017</p></button>
+					<button id="button-two" onclick="scheduleChangeSaturday()"><p>May 13, 2017</p></button>
+					<div id="calendar-box">
+						<img id="schedule-image" src="images/friSchedule.jpg" width="983px">
+					</div>
 				</div>
 			</section>
 			<section id="Register">
@@ -182,6 +184,20 @@
 					document.getElementById('price-point-two').className = "prices hidden";
 					document.getElementById('price-point-three').className = "prices";
 				}
+
+				function scheduleChangeFriday()
+				{
+					document.getElementById('schedule-image').src="images/friSchedule.jpg";
+					document.getElementById('button-one').className = "button-selected";
+					document.getElementById('button-two').className = " ";
+				}
+
+				function scheduleChangeSaturday()
+				{
+					document.getElementById('schedule-image').src="images/satSchedule.jpg";
+					document.getElementById('button-two').className = "button-selected";
+					document.getElementById('button-one').className = " ";
+				}
 			</script>
 			<section id="Sponsors">
 				<div>
@@ -202,11 +218,6 @@
 					<a href="mailto:daretodreamwpg@gmail.com?subject=District 64 Spring Conference"><img src="images/email.png" alt="logo"></a>
 				</div>
 			</footer>
-			<section id="coming-soon">
-				<p>
-					Coming Soon!
-				</p>
-			</section>
 		</div>
 	</body>
 </html>

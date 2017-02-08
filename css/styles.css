@@ -229,6 +229,11 @@ h4 {
 	background-color: #0393ef;
 	border: none;
 }
+
+.button-selected {
+	background-color: #E90052 !important;
+}
+
 #calendar {
 	margin-top: 20px;
 }
@@ -239,6 +244,7 @@ h4 {
 #calendar-box {
 	width: 1000px;
 	height: 550px;
+	overflow-y: scroll;
 	background-color: white;
 	margin-bottom: 70px;
 }
