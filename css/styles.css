@@ -376,6 +376,41 @@ h4 {
 #price-point-six #second-six {
 	bottom: 70px !important;
 }
+/* HOTEL SECTION */
+#Hotel::after {
+	position: absolute;
+	content: "";
+	background-color: #555555; 
+	top: 3295px;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	z-index: -1;
+}
+#Hotel div {
+	position: absolute;
+	top: 3395px;
+	text-align: center;
+	width: 1000px;
+}
+#Hotel div p {
+	color: #EEEEEE;
+	padding: 0;
+	margin: 0;
+}
+#Hotel div p:first-of-type{
+	font-weight: 600;
+	font-size: 30px;
+}
+
+#Hotel div p:nth-of-type(4) {
+	margin-top: 15px;
+	font-size: 20px;
+}
+#Hotel div p a {
+	color: #000000;
+	font-weight: 700;
+}
 
 
 /* SPONSOR SECTION*/
@@ -383,15 +418,15 @@ h4 {
 	position: absolute;
 	content: "";
 	background-color: #EEEEEE;
-	top: 3295px;
+	top: 3595px;
 	left: 0;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	z-index: -1;
 }
 #Sponsors div{
 	position: absolute;
-	top: 3450px;
+	top: 3750px;
 	text-align: center;
 	width: 1000px;
 }
@@ -414,7 +449,7 @@ footer::after {
 	position: absolute;
 	content: "";
 	background-color: black;
-	top: 3750px;
+	top: 3995px;
 	left: 0;
 	width: 100%;
 	height: 100px;
@@ -428,19 +463,19 @@ footer #bit-logo{
 	width: 200px;
 	height: 70px;
 	position: absolute;
-	top: 3760px;
+	top: 4010px;
 	margin-left: 300px;
 }
 footer p {
 	text-align: right;
 	position: absolute;
 	font-size: 20px;
-	top: 3750px;
+	top: 4000px;
 	margin-left: 80px;
 }
 footer #social-logos{
 	position: absolute;
-	top: 3760px;
+	top: 4010px;
 	margin-left: 520px;
 }
 footer #social-logos img {
