@@ -360,9 +360,6 @@ h4 {
 #price-point-six .weird:first-of-type {
 	font-size: 22px;
 }
-#price-point-one .second {
-	padding-top: 10px;
-}
 #Register #second-row button {
 	bottom: 50px;
 }
@@ -505,15 +502,6 @@ footer #social-logos img {
 {
 	display: none;
 }
-
-.hidden#price-point-one .second {
-	padding-top: 20px;
-}
-.hidden#price-point-two .second, .hidden#price-point-three .second {
-	padding-top: 40px;
-}
-
-
 
 body {
 	overflow-x: hidden;
