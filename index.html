@@ -79,7 +79,7 @@
 			</section>
 			<section id="Register">
 				<h4>TICKET PRICES</h4>
-				<div id="price-point-one" class="prices">
+				<div id="price-point-one" class="prices hidden">
 					<div class="first">
 						<p class="weird">EARLY BIRD</p>
 						<p class="weird"><span>$</span>140</p>
@@ -111,7 +111,7 @@
 					</div>
 					<a href="http://bit.ly/2foQlyQ"><button><p>Register</p></button></a>
 				</div>
-				<div id="price-point-three" class="prices hidden">
+				<div id="price-point-three" class="prices">
 					<div class="first">
 						<p class="weird">LATE BIRD</p>
 						<p class="weird"><span>$</span>185</p>
@@ -170,19 +170,6 @@
 				</div>
 			</section>
 			<script>
-				if (new Date('2017-04-01') - new Date() <= 0)
-				{
-					document.getElementById('price-point-one').className = "prices hidden";
-					document.getElementById('price-point-two').className = "prices";
-					document.getElementById('price-point-three').className = "prices hidden";
-
-				} 
-				else if (new Date('2017-05-02') - new Date() <= 0)
-				{
-					document.getElementById('price-point-one').className = "prices hidden";
-					document.getElementById('price-point-two').className = "prices hidden";
-					document.getElementById('price-point-three').className = "prices";
-				}
 
 				function scheduleChangeFriday()
 				{
